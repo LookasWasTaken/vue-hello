@@ -10,6 +10,8 @@ const { createApp } = Vue;
   createApp({
     data() {
       return {
+        text: "WTF? Hello VUE!",
+        img: "https://picsum.photos/300"
       }
     }
   }).mount('#app');
