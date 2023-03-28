@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 16%, rgba(0, 212, 255, 1) 38%, rgba(1, 192, 242, 1) 62%, rgba(23, 144, 72, 1) 83%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50px;
+}
+
+#app {
+    margin: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap column;
+    gap: 0.5rem;
+}
+
+h1 {
+    transition: all 0.5s;
+    color: white;
+}
+
+h1:hover {
+    scale: 2.5;
+    color: red;
+}
+
+img {
+    border-radius: 50px;
+}
